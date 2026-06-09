@@ -1,0 +1,4 @@
+- React consider Tag as data
+- We can store  and return tag
+- Function van return only one Tag
+- use { } inside tag to perform js operation (+ , - , ... varaiable call,)
