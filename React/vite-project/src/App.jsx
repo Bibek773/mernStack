@@ -68,6 +68,10 @@ const App = ()=> {
       <Address></Address><br></br>
       <God></God><br></br>
       <Infoo name= "Bibek" surname="Ghimre" ward = {4}></Infoo>
+
+      <p className="success">This is Success </p>
+      <p className="error">This is Error </p>
+      <p className="warning">This is Warning </p>
    </div>
   
 };
