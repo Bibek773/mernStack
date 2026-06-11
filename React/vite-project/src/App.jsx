@@ -1,3 +1,7 @@
+import Address from "./Address";
+import God from "./God";
+import Infoo from "./infoo";
+
 const App = ()=> {
 
   let products = [
@@ -14,7 +18,7 @@ const App = ()=> {
   ]
  
    return    <div className= "container" style = {{backgroundColor: "lightgray", padding: "20px",  color: "black", borderRadius: "9px"}}>
-   <center> <h3 style={{backgroundColor : "green", padding: "3px", margin : "10px" }}>Cosmos College of management</h3></center><hr></hr>
+   <center> <h1 style={{backgroundColor : "green", padding: "3px", margin : "10px" }}>Cosmos College of management</h1></center><hr></hr>
     <strong>Cosomos</strong> is located in sitapaila Museum marg.
     <div>
       <h4 >Courses Offered</h4>
@@ -59,9 +63,11 @@ const App = ()=> {
                 </table>
          })}
         
-   
+        
     </div>
-     
+      <Address></Address><br></br>
+      <God></God><br></br>
+      <Infoo name= "Bibek" surname="Ghimre" ward = {4}></Infoo>
    </div>
   
 };
