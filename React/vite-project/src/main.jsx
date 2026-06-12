@@ -4,10 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import "./globa.css"
 import CosmosApp from './CosmosApp.jsx'
+import{BrowserRouter} from 'react-router-dom'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <CosmosApp></CosmosApp>
+    <BrowserRouter>
+      <CosmosApp></CosmosApp>
+    </BrowserRouter>
   </StrictMode>,
 )
